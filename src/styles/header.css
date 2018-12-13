@@ -1,0 +1,39 @@
+.main{
+    background: #e0f7fa;
+    margin-bottom: 1.45rem;
+    width: 100vw;
+    display: inline-block
+
+}
+
+.inner{
+    margin: 0 auto;
+    padding: 1.45rem 1.0875rem;
+    float: left;
+    width: 40vw
+}
+.inner>a{
+    text-decoration: none;
+}
+
+.title{
+    color: #546e7a;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.title:hover{
+    text-shadow: 2px 2px rgb(164, 164, 248);
+}
+
+.resumeLink{
+    float: right;
+    vertical-align: middle;
+    margin: 2em
+}
+.resumeLink>a{
+    text-decoration: none;
+}
+.resumeLink>a:visited{
+    color: black
+}

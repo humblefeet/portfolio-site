@@ -7,10 +7,19 @@ import '../styles/projects.css'
 
 const Projects = props =>(
     <div>
-        <img src={hikeHitch}></img>
-        <img src={rainOrShine}></img>
-        <img src={unscrambler}></img>
-        <img src={whatch}></img>
+        <div>
+            <img src={whatch} alt="whatch screenshot"></img>
+        </div>
+        <div>
+            <img src={hikeHitch} alt="Hike Hitch screenshot"></img>
+        </div>
+        <div>
+            <img src={rainOrShine} alt="Rain or Shine screenshot"></img>
+        </div>
+        <div>
+            <img src={unscrambler} alt="unscrambler screenshot"></img>
+        </div>
+
     </div>
 )
 

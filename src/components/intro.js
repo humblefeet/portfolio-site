@@ -3,7 +3,7 @@ import '../styles/intro.css'
 import Portrait from '../images/portrait.jpg'
 
 const Intro = props =>(
-    <div>
+    <div id="intro">
         <div className="left">
             <h1>
                 Im a web developer
