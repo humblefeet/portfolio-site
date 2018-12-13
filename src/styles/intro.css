@@ -1,0 +1,12 @@
+.left{
+    float: left
+}
+
+.right{
+    float: right
+}
+
+.portrait{
+    border-radius: 50%;
+    height: 14em;
+}
