@@ -6,18 +6,24 @@ import whatch from '../images/whatch.png'
 import '../styles/projects.css'
 
 const Projects = props =>(
-    <div>
-        <div>
-            <img src={whatch} alt="whatch screenshot"></img>
+    <div className="projects">
+
+        <h1 className="big">Some of my recent developments...</h1>
+        <div className="oneProject">
+            <img className="images" src={whatch} alt="whatch screenshot"></img>
+            <div className="right">Whatch</div>
         </div>
-        <div>
-            <img src={hikeHitch} alt="Hike Hitch screenshot"></img>
+        <div className="oneProject">
+            <div className="left">hikeHitch</div>
+            <img className="images" src={hikeHitch} alt="Hike Hitch screenshot"></img>
         </div>
-        <div>
-            <img src={rainOrShine} alt="Rain or Shine screenshot"></img>
+        <div className="oneProject">
+            <img className="images" src={rainOrShine} alt="Rain or Shine screenshot"></img>
+            <div className="right">Rain-or-Shine</div>
         </div>
-        <div>
-            <img src={unscrambler} alt="unscrambler screenshot"></img>
+        <div className="oneProject">
+            <div className="left">Unscrambler</div>
+            <img className="images" src={unscrambler} alt="unscrambler screenshot"></img>
         </div>
 
     </div>

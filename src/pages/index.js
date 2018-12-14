@@ -5,21 +5,18 @@ import '../styles/index.css'
 import SEO from '../components/seo'
 import Intro from '../components/intro'
 import Projects from '../components/projects'
-import Header from '../components/header'
+// import Header from '../components/header'
 import Layout from '../components/layout';
 import Welcome from '../components/welcome'
+import Contact from '../components/contact'
 
 const IndexPage = () => (
   <div>
     <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
-    <Header/>
     <Welcome/>
-    <Layout>
-      <div className="main">
-        <Intro/>
-        <Projects/>
-      </div>
-    </Layout>
+    <Intro/>
+    <Projects/>
+    <Contact/>
   </div>
 )
 

@@ -1,5 +1,30 @@
-img{
+.projects{
+    width: 100%;
+    margin: 0 auto 3em auto;
+    background-color: brown;
+}
+.oneProject{
+    width: 80%;
+    padding: 2em;
+    margin: 1em auto;
+    border: black 2px solid;
+}
+.images{
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 2px 4px grey;
+    max-width: 50%;
+}
+
+.left,.right{
+    border: 2px black solid;
+
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
 }

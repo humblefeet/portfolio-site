@@ -1,0 +1,17 @@
+.contact{
+    background-color: darksalmon;
+    height: 100vh;
+    width: 100%
+}
+
+.innerContact{
+    height: 90vh;
+    width: 80%;
+    border: black 2px solid;
+    margin: 3em auto;
+}
+
+.portrait{
+    border-radius: 50%;
+    height: 14em;
+}

@@ -1,11 +1,28 @@
-.welcome{
+.welcomePage{
+    height: 95vh;
+    background-image: url('../images/welcomeBackground.jpg');
+    width: 100%;
+    overflow: hidden;
+
+}
+.welcomeMessage{
     text-align: center;
     height: 100vh;
+    margin: 20% auto;
+    max-width: 25%;
+    padding: auto;
 }
-
+.designName{
+    width: 85%;
+    margin: 0 auto;
+    padding: 5em auto;
+}
 .swing{
-    font-size: 4em;
-    margin: 2em;
+    font-size: 90px;
+    margin: 0 auto;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 500;
+    color: white;
 }
 @-webkit-keyframes swing 
 {

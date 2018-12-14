@@ -1,5 +1,4 @@
 .main{
-    background: #e0f7fa;
     margin-bottom: 1.45rem;
     width: 100vw;
     display: inline-block
@@ -12,6 +11,7 @@
     float: left;
     width: 40vw
 }
+
 .inner>a{
     text-decoration: none;
 }
