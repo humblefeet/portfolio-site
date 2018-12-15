@@ -9,24 +9,24 @@ const Projects = props =>(
     <div className="projects">
 
         <h1 className="big">Some of my recent developments...</h1>
-        <div className="oneProject">
-            <img className="images" src={whatch} alt="whatch screenshot"></img>
-            <div className="right">Whatch</div>
-        </div>
-        <div className="oneProject">
-            <div className="left">hikeHitch</div>
-            <img className="images" src={hikeHitch} alt="Hike Hitch screenshot"></img>
-        </div>
-        <div className="oneProject">
-            <img className="images" src={rainOrShine} alt="Rain or Shine screenshot"></img>
-            <div className="right">Rain-or-Shine</div>
-        </div>
-        <div className="oneProject">
-            <div className="left">Unscrambler</div>
-            <img className="images" src={unscrambler} alt="unscrambler screenshot"></img>
-        </div>
+        <div class="grid">
 
+            <div class="module">
+                <img className="images" src={whatch} alt="whatch screenshot"></img>
+            </div>
+            <div class="module">
+                <img className="images" src={hikeHitch} alt="Hike Hitch screenshot"></img>
+            </div>
+            <div class="module">
+                <img className="images rain" src={rainOrShine} alt="Rain or Shine screenshot"></img>
+            </div>
+            <div class="module">
+                <img className="images" src={unscrambler} alt="unscrambler screenshot"></img>
+            </div>
+
+        </div>
     </div>
+
 )
 
 export default Projects

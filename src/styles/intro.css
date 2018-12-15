@@ -1,30 +1,41 @@
 .intro{
-    height: 90vh;
+    min-height: 80vh;
+    max-height: 100vh;
     margin: 0 auto;
     width: 70vw;
 }
 
 .big{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(95, 35, 13);
+    text-align: center;
 }
 
 .bigIntro{
+    line-height: 1.5em;
     text-align: center;
 }
 .about{
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 1em auto;
+    clear: both;
+    padding: .5em 1em;
+}
+.about>h5, .list>h5{
+    font-weight: 600
 }
 
 .list{
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: .5em auto;
+    padding: .5em 1em;
+
 }
 
 li{
     list-style: none;
     text-align: center;
     float: left;
-    padding: 1em 2em;
+    padding: .5em 2em;
 
 }

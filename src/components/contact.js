@@ -1,6 +1,7 @@
 import React from 'react'
 import Portrait from '../images/Portrait.jpg'
 import '../styles/contact.css'
+import { Link } from 'gatsby'
 
 const Contact = props => (
     <div className="contact">
@@ -11,6 +12,13 @@ const Contact = props => (
                 className="portrait"
                 src={Portrait}>
             </img>
+            <div className="lowContact">
+                <Link to='/resume'>
+                    <button>
+                        Resume
+                    </button>
+                </Link>
+            </div>
         </div>
     </div>
 )

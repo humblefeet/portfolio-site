@@ -1,5 +1,5 @@
 .main{
-    margin-bottom: 1.45rem;
+    margin-bottom: 1rem;
     width: 100vw;
     display: inline-block
 
@@ -7,9 +7,8 @@
 
 .inner{
     margin: 0 auto;
-    padding: 1.45rem 1.0875rem;
-    float: left;
-    width: 40vw
+    padding: 1rem;
+    width: 100vw
 }
 
 .inner>a{
@@ -17,23 +16,16 @@
 }
 
 .title{
-    color: #546e7a;
+    text-shadow: 2px 2px rgb(191, 30, 255);
+    color: #fff6cd;
     text-decoration: none;
     font-size: 3rem;
+    font-family: 'Catamaran', sans-serif;
+
 }
 
 .title:hover{
-    text-shadow: 2px 2px rgb(164, 164, 248);
+    text-shadow: 3px 3px rgb(164, 164, 248);
+
 }
 
-.resumeLink{
-    float: right;
-    vertical-align: middle;
-    margin: 2em
-}
-.resumeLink>a{
-    text-decoration: none;
-}
-.resumeLink>a:visited{
-    color: black
-}
