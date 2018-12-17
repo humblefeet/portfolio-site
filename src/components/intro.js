@@ -8,8 +8,8 @@ const Intro = props =>(
         <Helmet>
             <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet"/>
         </Helmet>
-        <div >
-            <h1 className="bigIntro big">
+        <div className="bigIntro big">
+            <h1>
                 Hello, I'm Matthieu Bourgois <br/> a Front-End Developer based in Seattle, WA.
             </h1>
             <hr/>

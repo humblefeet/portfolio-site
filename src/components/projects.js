@@ -12,16 +12,28 @@ const Projects = props =>(
         <div class="grid">
 
             <div class="module">
-                <img className="images" src={whatch} alt="whatch screenshot"></img>
+                <a  target="_blank"
+                    href="https://github.com/ladystensberg/whatch">
+                    <img className="images" src={whatch} alt="whatch screenshot"></img>
+                </a>
             </div>
             <div class="module">
-                <img className="images" src={hikeHitch} alt="Hike Hitch screenshot"></img>
+                <a  target="_blank"
+                    href="https://github.com/humblefeet/hike-hitch">
+                    <img className="images" src={hikeHitch} alt="Hike Hitch screenshot"></img>
+                </a>
             </div>
             <div class="module">
-                <img className="images rain" src={rainOrShine} alt="Rain or Shine screenshot"></img>
+                <a  target="_blank"
+                    href="https://github.com/humblefeet/rain-or-shine"> 
+                    <img className="images rain" src={rainOrShine} alt="Rain or Shine screenshot"></img>
+                </a>
             </div>
             <div class="module">
-                <img className="images" src={unscrambler} alt="unscrambler screenshot"></img>
+                <a  target="_blank"
+                    href="https://github.com/humblefeet/Word-Scramble">
+                    <img className="images" src={unscrambler} alt="unscrambler screenshot"></img>
+                </a>
             </div>
 
         </div>

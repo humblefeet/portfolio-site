@@ -1,23 +1,27 @@
 .intro{
-    min-height: 80vh;
-    max-height: 100vh;
+    min-height: 50vh;
+    max-height: 80vh;
     margin: 0 auto;
     width: 70vw;
+    background-color: rgb(225, 237, 252);
+    border-radius: 10px;
 }
 
 .big{
     font-family: 'Catamaran', sans-serif;
-    color: rgb(95, 35, 13);
+    color: rgb(225, 237, 252);
     text-align: center;
 }
 
 .bigIntro{
     line-height: 1.5em;
     text-align: center;
+    color: rgb(36, 36, 36)
+
 }
 .about{
     width: 90%;
-    margin: 1em auto;
+    margin: auto;
     clear: both;
     padding: .5em 1em;
 }

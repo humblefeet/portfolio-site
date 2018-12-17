@@ -10,7 +10,7 @@ const Resume = () => (
   <div className="mainResume">
     <Header/>
     <SEO title="Resume" />
-    <h1>Resume</h1>
+    <h1 >Resume</h1>
     <a href={ResumeFile} download>
       <button className="button">Download</button>
     </a>

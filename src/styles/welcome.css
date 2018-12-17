@@ -1,6 +1,6 @@
 .welcomePage{
     height: 100vh;
-    background-image: url('../images/wood.jpg');
+    /* background-image: url('../images/wood.jpg'); */
     background-size: cover;
     width: 100%;
     overflow: hidden;
@@ -19,11 +19,12 @@
     padding: 5em auto;
 }
 .swing{
-    font-size: 90px;
+    font-size: 8em;
+    letter-spacing: .5em;
     margin: 0 auto;
     font-family: 'Major Mono Display', monospace;
     font-weight: 500;
-    color: white;
+    color: rgb(225, 237, 252);
 }
 @-webkit-keyframes swing 
 {

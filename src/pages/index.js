@@ -11,9 +11,12 @@ import Contact from '../components/contact'
 const IndexPage = () => (
   <div>
     <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
-    <Welcome/>
-    <Intro/>
-    <Projects/>
+    <div className="background">
+      <Welcome/>
+      <Intro/>
+      <Projects/>
+    </div>
+
     <Contact/>
   </div>
 )
